@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Images</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <!-- <div class="picture">
+      <img src="./imgs/grande.jpg" alt="Gato grande">
+    </div> -->
+    <picture>
+      <source srcset="./imgs/grande.jpg" media="(min-width: 1300px)">
+      <source srcset="./imgs/mediano.jpg" media="(min-width: 1000px)">
+      <img src="./imgs/pequeno.jpg" alt="Gato pequeño">
+    </picture>
+  </main>
+</body>
+</html>

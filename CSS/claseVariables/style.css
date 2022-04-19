@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables globales */
+:root {
+  --primary-color: #003476;
+  --secundary-color: #B4D2F7;
+  --header-sixe: 4rem;
+  --font: 1.8rem;
+}
+/* Variables globales */
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: var(--primary-color);
+  border: solid;
+}
+
+main {
+  width: 100vw;
+  height: 70vh;
+  font-size: var(--font);
+  /* background-color: gray; */
+  border: solid;
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
+footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: var(--secundary-color);
+  border: solid;
+}
